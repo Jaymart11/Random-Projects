@@ -1,0 +1,17 @@
+$primary-color: blue;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Game{
+    background-color: $primary-color;
+    text-align: center;
+
+    button{
+        width: 70px;
+    
+    }
+}

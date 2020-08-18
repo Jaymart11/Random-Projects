@@ -1,0 +1,35 @@
+$primary-color : cyan;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.RollDie{
+    text-align: center;
+
+    button{
+        border: none;
+        outline: none;
+        background-color: $primary-color;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color : lighten($primary-color, 100%)
+    }
+    button:hover{
+        background-color: darken($primary-color, 10%);
+    }
+    .rolling{
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+
+.Dice{
+    display: flex;
+    justify-content: center;
+
+}

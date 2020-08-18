@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import "./App.css";
+// import LottoEvent from "./Components/LottoEvent";
+// import CoinFlipper from "./Components/CoinFlipper";
+// import ColorBoxes from "./Components/ColorBoxes";
+// import EventChild from "./Components/EventChild";
+// import Board from "./Board";
+import BoxMaker from "./Components/BoxMaker";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <LottoEvent title="Biggest Event" maxNum={40} ballCounts={10} />
+      <CoinFlipper />
+      <ColorBoxes boxCount={5} />
+      <EventChild /> */}
+      {/* <Board /> */}
+      <BoxMaker />
     </div>
   );
 }

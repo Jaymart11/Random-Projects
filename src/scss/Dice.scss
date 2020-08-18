@@ -1,0 +1,29 @@
+
+$primary-color : cyan;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .fas {
+     color: $primary-color;
+     font-size: 10rem;
+     margin: 3rem;
+     
+ }
+.shaking{
+   position: relative;
+   animation: shaking 1.5s forwards;
+}
+
+ @keyframes shaking {
+     0%{ left: 0;}
+     30%{ left: 100px;}
+     40%{ left: 0;}
+     50%{ left: 75px;}
+     60%{ left: 0px;}
+     80%{ left: 50px;}
+     90%{ left: 0;}
+     95%{ left: 25px;}
+     100%{left: 0;}
+ }

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+
+}
+.LottoEvent{
+    width: 80vw;
+    margin: 5rem auto;
+    background-color: cornsilk;
+    border-radius: 1rem;
+    border: 2px solid  black;
+    padding: 2rem 0;
+    
+        
+        section{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+}
